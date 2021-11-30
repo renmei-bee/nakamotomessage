@@ -177,21 +177,31 @@ footer small br{
 /* ------------------
   入学案内
 ------------------ */
+#info .content{
+  display: flex;
+}
 
+#info main ul li {
+  margin-bottom: 20px;
+}
 
 /* ------------------
   アクセス
 ------------------ */
-#access main .shopping h3 {
+#access main .mihama{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#access main h3 {
   color: #0182be;
   font-size: 20px;
   text-align: center;
   margin-bottom: 20px;
 }
-#access main .shopping p {
-  line-height: 1.5;
+#access main img{
   margin-bottom: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 
